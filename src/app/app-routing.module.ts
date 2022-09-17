@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
-import { TecnicoListComponent } from './tecnico/tecnico-list/tecnico-list.component';
+import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 import { AuthGuard } from './auth/auth.guard';
 
 const routes: Routes = [
