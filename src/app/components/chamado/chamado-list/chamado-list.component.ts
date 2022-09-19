@@ -42,7 +42,7 @@ export class ChamadoListComponent implements OnInit {
 
   retornaStatus(status: any): string {
     if(status == '0') {
-      return 'ABERTOR'
+      return 'ABERTO'
     } else if(status == '1') {
       return 'EM ANDAMENTO'
     } else {
